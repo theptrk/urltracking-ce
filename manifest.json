@@ -5,6 +5,7 @@
   "action": { "default_popup": "index.html" },
   "permissions": ["tabs", "storage"],
   "background": {
-    "service_worker": "./src/service-worker.js"
+    "service_worker": "./src/service-worker.js",
+    "type": "module"
   }
 }
